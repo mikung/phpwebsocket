@@ -20,4 +20,4 @@ $row = $stmt->fetchAll();
 //echo "</pre>";
 header('Content-Type: application/json');
 echo json_encode($row);
-$dbh = null;
+//$dbh = null;
